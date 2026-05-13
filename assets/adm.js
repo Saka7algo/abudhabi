@@ -1,9 +1,8 @@
 (function () {
   // Apply saved theme immediately — before paint — to avoid flash
+  // Default is light; only switch if user explicitly toggled before
   const _t = localStorage.getItem('adm-theme');
   if (_t) document.documentElement.setAttribute('data-theme', _t);
-  else if (window.matchMedia('(prefers-color-scheme:dark)').matches)
-    document.documentElement.setAttribute('data-theme', 'dark');
 
   const PHONE = '+919544041000';
   const PHONE_DISPLAY = '+91 95440 41000';
