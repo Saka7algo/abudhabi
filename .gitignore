@@ -1,0 +1,18 @@
+# IDE / Editor
+.vscode/
+.claude/
+
+# Logs
+*.log
+web-8080.*.log
+
+# Scraps and uploads (not part of source)
+scraps/
+uploads/
+
+# Backups
+index_singlepage_backup.html
+
+# OS files
+.DS_Store
+Thumbs.db

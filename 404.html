@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-page="">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Page Not Found · ADM Kochi</title>
+<meta name="robots" content="noindex"/>
+<meta name="theme-color" content="#F8F7F4"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/adm.css"/>
+<style>
+  .err-page{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 24px;background:var(--bg)}
+  .err-code{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(96px,16vw,180px);letter-spacing:-.06em;line-height:1;color:var(--line2);margin-bottom:8px}
+  .err-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(24px,3vw,36px);letter-spacing:-.025em;margin-bottom:16px}
+  .err-sub{color:var(--mute);font-size:16px;max-width:42ch;line-height:1.6;margin-bottom:40px}
+  .err-links{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+  .err-nav{display:flex;gap:32px;flex-wrap:wrap;justify-content:center;margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+  .err-nav a{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);transition:color .2s ease}
+  .err-nav a:hover{color:var(--blue)}
+</style>
+</head>
+<body>
+<div data-slot="nav"></div>
+
+<main class="err-page">
+  <div class="err-code">404</div>
+  <h1 class="err-title">Page not found.</h1>
+  <p class="err-sub">The page you're looking for doesn't exist or has moved. Try one of the links below — or head back to the workshop floor.</p>
+  <div class="err-links">
+    <a href="index.html" class="btn primary btn-lg">Back to home <span class="arr">→</span></a>
+    <a href="contact.html" class="btn btn-lg">Contact us</a>
+  </div>
+  <nav class="err-nav" aria-label="Quick links">
+    <a href="services.html">Services</a>
+    <a href="services.html#body">Body Shop</a>
+    <a href="services.html#care">Ceramic &amp; PPF</a>
+    <a href="services.html#workshop">Workshop</a>
+    <a href="education.html">Education</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="story.html">Story</a>
+  </nav>
+</main>
+
+<div data-slot="footer"></div>
+<script src="assets/adm.js"></script>
+</body>
+</html>
